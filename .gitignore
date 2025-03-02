@@ -1,0 +1,78 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Compiled class files
+target/
+out/
+
+# Generated files
+bin/
+*.iml
+*.ipr
+*.iws
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs
+logs/
+*.log
+hs_err_pid*
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+*.class
+*.hprof
+.DS_Store
+.metadata
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+.vscode/
+
+### OS Files ###
+Thumbs.db
+.DS_Store
+
+### Spring Boot ###
+# Exclude application properties if they contain sensitive data
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+.env
+.env.local
+
+### Node.js (React Frontend) ###
+node_modules/
+build/
+dist/
+.npm/
+.yarn/
+*.log
+package-lock.json
+yarn.lock
+
+# React environment files
+.env
+.env.local
+.env.development
+.env.production
+
+### Docker ###
+docker-compose.override.yml
+.dockerignore
+
+### Database ###
+*.db
+*.sqlite
+*.sql
